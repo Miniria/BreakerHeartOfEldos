@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561af379b219960439d2a48fe7b807eb, type: 3}
+  m_Name: 09TankMushroom
+  m_EditorClassIdentifier: 
+  unitID: 4
+  unitName: StrangeMushroom
+  icon: {fileID: 21300000, guid: 6e10bbcd91bb358439d6a6bc1ee939d0, type: 3}
+  strength: 5
+  agility: 5
+  intelligence: 5
+  stats:
+    health: 500
+    attack: 50
+    defense: 80
+    speed: 20
+    critical: 0
+    criticalDamage: 0
+    resistance: 0
+    accurate: 0
+    evation: 0
+  skills: []
+  unitPrefab: {fileID: 4945300663226527045, guid: 03c3e5221ee223e488ed6d41def76b02, type: 3}
+  hitVfxPrefab: {fileID: 1758473627833946668, guid: 9b21333b068a5084ba09535839bee3c8, type: 3}
+  weapon: {fileID: 0}
+  hasAnimation: 1
+  idle: {fileID: 7400000, guid: 5426c1fc8e0f78a448fcc1ead1a1ae23, type: 2}
+  attack: {fileID: 7400000, guid: 30b994d1ca7efe646b17eb54dfebf890, type: 2}
+  gethit: {fileID: 7400000, guid: c00340df52918de43a09f0001ea26372, type: 2}
+  dead: {fileID: 7400000, guid: 0c2183820d8fe30429fed26d69dbebd2, type: 2}
+  dashSpeed: 20
+  attackDistance: 2.5

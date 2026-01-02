@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 561af379b219960439d2a48fe7b807eb, type: 3}
+  m_Name: 08Orc
+  m_EditorClassIdentifier: 
+  unitID: 3
+  unitName: Orc
+  icon: {fileID: 21300000, guid: f208892e095d10541bfa79be6ba942c8, type: 3}
+  strength: 10
+  agility: 10
+  intelligence: 10
+  stats:
+    health: 500
+    attack: 50
+    defense: 80
+    speed: 20
+    critical: 0
+    criticalDamage: 0
+    resistance: 0
+    accurate: 0
+    evation: 0
+  skills: []
+  unitPrefab: {fileID: 7689666462091670249, guid: 24efec3d5ecbf3e4b8c3474dab5d236f, type: 3}
+  hitVfxPrefab: {fileID: 1758473627833946668, guid: 9b21333b068a5084ba09535839bee3c8, type: 3}
+  weapon: {fileID: 0}
+  hasAnimation: 1
+  idle: {fileID: 7400000, guid: 850231814413f3e448bed22159db80ee, type: 2}
+  attack: {fileID: 7400000, guid: f4e00b53b2cf0884da3bd11b9ff9781a, type: 2}
+  gethit: {fileID: 7400000, guid: 77438aae56b9ae149b0e4afecf0d3971, type: 2}
+  dead: {fileID: 7400000, guid: fc1736ac9803c7a4dbf43b67203fa52d, type: 2}
+  dashSpeed: 20
+  attackDistance: 2.5

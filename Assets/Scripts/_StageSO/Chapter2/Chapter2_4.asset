@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b173206219c1f54fb1daf7539ba5b81, type: 3}
+  m_Name: Chapter2_4
+  m_EditorClassIdentifier: 
+  stageID: Chapter2_4
+  chapterIndex: 2
+  stageIndexInChapter: 4
+  stageName: Ch2-S4
+  stageDescription: 
+  stageIcon: {fileID: 0}
+  combatSceneName: Combat
+  enemiesInThisStage:
+  - {fileID: 11400000, guid: 6f0c0f68d901416409cd009a3a85b0d8, type: 2}
+  firstTimeRewards:
+  - type: 0
+    rarity: 0
+    amount: 10000
+    maxAmount: 0
+    itemID: 
+    itemQuantity: 0
+  - type: 3
+    rarity: 0
+    amount: 1000
+    maxAmount: 0
+    itemID: 
+    itemQuantity: 0
+  guaranteedRewards:
+  - type: 0
+    rarity: 0
+    amount: 500
+    maxAmount: 1000
+    itemID: 
+    itemQuantity: 0
+  - type: 3
+    rarity: 0
+    amount: 500
+    maxAmount: 0
+    itemID: 
+    itemQuantity: 0
+  randomDrops:
+  - itemID: 1
+    dropChance: 50
+  - itemID: 4
+    dropChance: 50
+  - itemID: 6
+    dropChance: 50
+  - itemID: 8
+    dropChance: 50
+  - itemID: 9
+    dropChance: 50
+  - itemID: 10
+    dropChance: 50
+  - itemID: 2
+    dropChance: 30
+  - itemID: 3
+    dropChance: 10
+  - itemID: 5
+    dropChance: 30
+  - itemID: 5
+    dropChance: 30
+  - itemID: 9
+    dropChance: 30
+  - itemID: 9
+    dropChance: 30
+  minItemQuality: 8
+  maxItemQuality: 15
